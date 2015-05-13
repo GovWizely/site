@@ -1,0 +1,35 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+name: GovWizely
+highlighter: pygments
+baseurl: /site
+email: info@govwizely.com
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+exclude:
+  - .bundle
+  - .git
+  - .gitignore
+  - bin
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+markdown: kramdown
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: 
+  - title: github
+    url: https://github.com/GovWizely
+  - title: linkedin
+    url: https://www.linkedin.com/company/govwizely
