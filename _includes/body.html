@@ -27,10 +27,11 @@
             </div>
 
             <div class="col span_2 overview">
-                <h2><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h2>
-                <div class="excerpt"><p>GovWizely helps government agencies build applications with their data. We bring modern technologies to government projects and work with our clientele to fight bureaucratic roadblocks. </br></br>
-
-Plus, we love big data, and the government, if anything, has a lot of data. The founders have all worked in Silicon Valley for years, but have since retreated back to the East Coast to try to turn a battleship.</p>
+                <div class="blog-index">  
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include post_detail.html %}
+</div>
 </div>
                 
             </div>
